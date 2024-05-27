@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "azure-speech"
+version = "0.1.0"
+description = ""
+authors = ["kaneplease <piacere.atsuki@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+azure-cognitiveservices-speech = "^1.37.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
